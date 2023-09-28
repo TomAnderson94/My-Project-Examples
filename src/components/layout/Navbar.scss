@@ -1,0 +1,26 @@
+@import "../../global.scss";
+
+.navbar {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: $box-shadow;
+  padding: 0 100px;
+}
+
+.navItem {
+  margin-right: 60px;
+}
+
+.navItem a {
+  text-decoration: none;
+  color: $gray;
+}
+
+.navItem a.active {
+  color: black;
+  border-bottom: 2px solid $green;
+  padding-bottom: 20px;
+  border-radius: 2;
+}

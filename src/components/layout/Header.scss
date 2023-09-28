@@ -1,0 +1,24 @@
+@import "../../global.scss";
+
+header {
+  padding: 0px 100px;
+  background: $green;
+  font-size: 10px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo img {
+    height: 60px;
+  }
+  .user {
+    text-decoration: none;
+    color: $white;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  span {
+    color: $black;
+  }
+}
